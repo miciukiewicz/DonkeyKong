@@ -6,6 +6,8 @@ using UnityEngine;
 public class SpawnController : MonoBehaviour {
     [SerializeField]
     GameObject barrel = null;
+    [SerializeField]
+    int minSecondToSpawnBarrel, maxSecondToSpawnBarrel;
 
     System.Random randomGenerator = null;
 
@@ -17,7 +19,7 @@ public class SpawnController : MonoBehaviour {
     IEnumerator spawnBarrel() {
         while(true) {
             Instantiate(barrel, gameObject.transform.position, Quaternion.identity);
-            yield return new WaitForSeconds(randomGenerator.Next(2, 5));
+            yield return new WaitForSeconds(randomGenerator.Next(minSecondToSpawnBarrel, maxSecondToSpawnBarrel));
         }
     }
 }

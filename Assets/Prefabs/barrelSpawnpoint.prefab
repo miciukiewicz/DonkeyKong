@@ -44,3 +44,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   barrel: {fileID: 5741683340533127268, guid: dfc6ff6a485c0c540b1056260f7dcfad, type: 3}
+  minSecondToSpawnBarrel: 2
+  maxSecondToSpawnBarrel: 4

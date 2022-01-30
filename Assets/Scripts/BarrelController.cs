@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class BarrelController : MonoBehaviour
 {
+    [SerializeField]
+    public float speedOfBarrel;
+
     new Rigidbody2D rigidbody;
     bool facingRight;
 
@@ -14,10 +17,10 @@ public class BarrelController : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision) {
         if(collision.gameObject.tag == "Platform") {
             if(facingRight) {
-                rigidbody.velocity = new Vector2(3, 0);
+                rigidbody.velocity = new Vector2(speedOfBarrel, 0);
                 facingRight = false;
             } else {
-                rigidbody.velocity = new Vector2(-3, 0);
+                rigidbody.velocity = new Vector2(-speedOfBarrel, 0);
                 facingRight = true;
             }
         } else if(collision.gameObject.tag == "Oil") {
