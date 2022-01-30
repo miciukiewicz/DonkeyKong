@@ -7,6 +7,6 @@ Quick instructions:
   - blue squares are the ladders
 
 Controls: 
-  A and D - moving left and right
-  W and S - moving up and down (only near ladder)
-  Space - jump
+  - A and D - moving left and right
+  - W and S - moving up and down (only near ladder)
+  - Space - jump
