@@ -1,5 +1,6 @@
 # DonkeyKong
-Recreating the first level of the game Donkey Kong without graphic (at least for now)
+Recreating the first level of the game Donkey Kong without specific graphic (at least for now)
+Unity version: 2020.3.26f1
 
 Quick instructions:
   - white capsule is you 
@@ -11,3 +12,4 @@ Controls:
   - A and D - move left and right
   - W and S - move up and down (only near ladder)
   - Space - jump
+
