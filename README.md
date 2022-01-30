@@ -1,5 +1,5 @@
 # DonkeyKong
-Recreating the first level of the game Donkey Kong without specific graphic (at least for now)
+Recreating the first level of the game Donkey Kong without specific graphic (at least for now) <br />
 Unity version: 2020.3.26f1
 
 Quick instructions:
